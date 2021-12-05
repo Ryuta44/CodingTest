@@ -1,7 +1,7 @@
 import datetime
 
-LOG_FILE = 'TestCase/test3.txt'
-OUTPUT_FILE = 'Results/result_q3.txt'
+LOG_FILE = './TestCase/test3.txt'
+OUTPUT_FILE = './Results/result_q3.txt'
 COUNT_LIMIT = 3 # タイムアウトの回数制限
 JUDGE_COUNT = 3 # 参照する直近のログの数
 LIMIT_AVARAGE_RESPONSE = 300 # 平均応答時間の制限

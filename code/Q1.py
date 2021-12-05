@@ -1,7 +1,7 @@
 import datetime
 
-LOG_FILE = 'TestCase/test1.txt'
-OUTPUT_FILE = 'Results/result_q1.txt'
+LOG_FILE = './TestCase/test1.txt'
+OUTPUT_FILE = './Results/result_q1.txt'
 
 def format_log(file):
     with open(file) as f:
