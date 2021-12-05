@@ -1,7 +1,7 @@
 import datetime
 
-LOG_FILE = './TestCase/test2.txt'
-OUTPUT_FILE = './Results/result_q2.txt'
+LOG_FILE = 'code/TestCase/test2.txt'
+OUTPUT_FILE = 'code/Results/result_q2.txt'
 COUNT_LIMIT = 3 #Limit of Timeout Count
 
 def format_log(file):
