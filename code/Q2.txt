@@ -1,0 +1,8 @@
+format_log
+課題1に同じ
+
+output_failure
+課題1に同じ
+
+main
+仕様:課題1と同じである。

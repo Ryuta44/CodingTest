@@ -1,0 +1,15 @@
+format_log
+課題1,2に同じ
+
+output_failure
+課題1,2に同じ
+
+output_overload
+概要:対象のログの過負荷状態時の期間とアドレスを返す関数
+引数:対象のログ({サーバアドレス(str):[確認日時(datetime),応答時間(str)]}), 判定するログの数(int), 平均応答時間の制限(int)
+返り値:{type:'overload'(str), address:サーバアドレス(str), start_time:故障開始時刻(datetime), end_time:故障終了時刻(datetime)}
+- type:'overload' = 過負荷状態
+仕様:返すデータ型はoutput_failureと同じ型にした。typeの値がそのエラーの状態を保持する。タイムアウト時は過負荷状態とは別のエラーなので、含まない。
+
+main
+仕様:過負荷状態のデータも故障中のデータと同じように扱えるように設計した。他の状態を参照したい場合は同じデータ型のtypeの値を変更することで拡張する。
