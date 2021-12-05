@@ -41,7 +41,13 @@ code/Results
 初めに以下のコマンドでgithubからソースコードをダンロードする。
 
 ```jsx
-git clone https://github.com/
+git clone https://github.com/Ryuta44/CodingTest.git
+```
+
+次にディレクトリを移動する。
+
+```
+cd CodingTest
 ```
 
 ### 課題の実行方法
